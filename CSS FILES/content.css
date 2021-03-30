@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: #eaeaea;
+}
+h1 {
+  margin: 0;
+  background-color: #08d9d6;
+  color: #212121;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+
+h3 {
+  color: #ea5455;
+  background-color: #2d4059;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 200px;
+
+}
+.info {
+  position: relative;
+  top: 300px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

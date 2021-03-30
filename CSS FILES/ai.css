@@ -1,0 +1,20 @@
+body {
+  background-color: #eaeaea;
+}
+
+h1 {
+  background-color: #08d9d6;
+  color: #ff2e63;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 50px;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+p {
+  margin-left: 100px;
+  margin-right: 100px;
+}

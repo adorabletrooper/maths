@@ -1,0 +1,25 @@
+h1 {
+  background-color: #08d9d6;
+  color: #212121;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 50px;
+}
+body {
+  background-color: #eaeaea;
+}
+p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.imag {
+  margin-left: 100px;
+  margin-right: 500px;
+}
+h2 {
+  background-color: #ea5455;
+  color: #e5e5e5;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 100px;
+}

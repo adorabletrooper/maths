@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div class="">
+          <h1>Use of Statistics in Soccer</h1>
+        </div>
+        <p>Soccer/world football is a sport involving two teams of players kicking and heading a
+            medium-sized ball about on a large rectangular field. Each team has a goal that is quite
+            wide and high and seeks to shoot the ball into the other team's goal. The basic objective is
+            to see which team of the two can score the most goals and thereby win the game. The
+            sport is subject to Laws set down by the Federation Internationale de Football (FIFA).
+            Typically there is a group of teams playing against each other in a league or tournament
+            with a formal schedule of games. A team's intention then is to win a tournament or
+            championship by obtaining the most points, where 3 are awarded for a win, 1 for a tie and
+            0 for a loss.</p>
+        <p>The sport of soccer has a long and full history possibly going back to 2500 BC,
+            Henshaw (1979). In the present time the teams each have eleven players. One, the goalie,
+            may handle the ball but only within a restricted area in front of his goal. There is a neutral
+            referee whose decisions are final. The grandest tournament, the World Cup, moves
+            amongst different countries and occurs nominally every four years .The past world
+            champions are Uruguay, Argentina, Brazil, England, France, Germany and Italy. The
+            sport has become a multi-billion dollar business.
+            </p>
+
+        <p>Tactics are basic to the games with many styles and plating formations available. A
+            team's choice has been based, in part, on studies of match statistics. The pioneer in the
+            field of match performance analysis is Charles Reep, see Larsen (2001) and Pollard
+            (2002).</p>
+
+        <h2>1. DATA COLLECTION AND DESCRIPTIVE ANALYSES</h2>
+
+        <p>Data collection and analysis have been basic to soccer for many years. The most
+            common statistics are a game's result and the number of goals scored by each team.
+            Outputs of data analyses include: reports, tables, graphs, talks, images, and videos.
+            </p>
+
+        <p>Many things go on during a game. A basic question is what is to be recorded for
+            analysis and how to do so. Charles Reep, see Larsen (2001) and Pollard (2002),
+            developed solutions starting in the early 1950s. The study of basic events in a game has
+            been called both match performance analysis and match analysis, see Reilly and Thomas
+            (1976), Larsen (2001), McGarry and Franks (2003), and Hughes (2003).
+            </p>
+
+        <p>A recent addition to the type of information available is near continuous highfrequency digital spatial-temporal data for individual games. Companies come to a
+            stadium and set up an array of video cameras. By signal processing they then develop the
+            spatial-temporal coordinates of the changing locations of the players on the field, the ball
+            and the referee. Companies doing this include: Match Analysis, Prozone Holdings, and
+            Sport-Universal SA. Di Salvo et al. (2006) have validated one such system. Basic
+            quantities that may now be tabled directly include counts of: tackles, crosses, distances
+            covered, key moments and actions, possessions, passes, interceptions, runs with the ball,
+            incorrect referee decisions, fouls, penalty kicks, challenges, entries into the opponent's area, ball touches, blocks, forward passes, long balls, high intensity running, ball velocity
+            and accuracy, balls received. Individual player's performances may be evaluated directly.
+            The data can lead to changes in tactics during a game, see Carling, Williams and Reilly
+            (2009). Substantial soccer databases have been available for many years. Websites
+            include: www.eufa.com, www.fifa.com, www.soccerbase.com, www.soccerway.com,
+            and www.soccerpunter.com .</p>
+        <p>One early investigation of basic data is that of Moroney (1951), pp. 101-103. He
+            studied the numbers of goals scored in 480 games and prepared a histogram of the counts.
+            In another early study the numbers of successful passes in passing movements were
+            studied for the English First Division during the years 1957-58 and 1961-62 in Reep and
+            Benjamin (1968). The results were presented in tabular form. Reep and Benjamin found a
+            stable correspondence between shots on goal and goals scored of about 10 to 1. Distances
+            traveled by individual players during a game are graphed by player position in Reilly and
+            Thomas (1976). Hughes and Franks (2008) present scatter and time series plots. One
+            early discovery was the existence of a home advantage. Schedules are often set up so that
+            two teams meet both at home and away to deal with this. Jochems (1958, 1962), while
+            addressing the question of whether the Dutch football pools were breaking the gambling
+            laws, found the percentages to be 46.6 for a home win, 31.0 for a visitor win and 22.4 for
+            a draw/tie. Managers make use such data in their decision-making, more so every year.
+            Stochastic models are important in this connection.</p>
+
+        <h2>2. STOCHASTIC MODELLING</h2>
+        <p>Stochastic models are pertinent to soccer statistics because is there is much uncertainty in
+            what happens and what may happen. During the preceding fifty years stochastic models
+            have been constructed to address soccer questions. Some models may be distinguished as
+            to concerning goals, win-tie-loss, or points. Specific distributions and models that have
+            been employed include: bivariate Poisson, exponential, extreme value, GARCH,
+            generalized linear, logistic, Markov, negative binomial, ordinal, regression, prior, point
+            process, and state space. Many analyses are based on the Poisson distribution whose
+            probability function is given by</p>
+
+        <p>Prob{Y=y} = 
+            y
+            e
+            -y
+             /y! for y = 0,1,2,...</p>
+
+        <p>Here Y might represent the number of goals a team scores in a future game. In early work
+            Moroney (1951), using the data mentioned above, compared the number of goals scored
+            by a team in a game to their estimated expected frequency assuming that a Poisson
+            distribution held. On examining the result he was led to seek to improve it and fit a
+            negative binomial distribution. This is a generalization of the Poisson. This fit was
+            satisfactory. However Greanhough et al (2002) found that when data from 169 countries
+            were pooled extreme value distributions were needed.</p>
+
+        <p>Reep et al (1968, 1971) work with the numbers of passes in successful passing
+            movements. They fit the negative binomial and found it was good when 0-length cases
+            were excluded.</p>
+
+        <p>Suppose next that team i at home is playing against team j visiting. Denote the final
+            score by (Xij,Yij). Various authors have assumed that Xij and Yij are independent Poissons
+            with respective means,</p>
+
+        <p>ij , ij Maher (1982)</p>
+        <p>exp{ +  + i + j}, exp{ + j + i} Kuonen (1996) and Lee (1997)
+            ij , ji Dixon and Coles (1997)
+            exp{ +  + i - j - (i - j)}, exp{ + j - i + (i - j)} Rue and Salvesen (2000)</p>
+
+        <p>Here  is a home advantage,  is a psychological effect and i = i + i . In their fitting
+            Dixon and Coles modify the low score model probabilities. The probability that team i
+            wins the game may be estimated having estimated the model parameters.</p>
+
+        <p>Maher (1982) estimates , , ,  by maximum likelihood and mentions fitting the
+            bivariate Poisson. Karlis and Ntzoufras (2003) give details of fitting a bivariate Poisson
+            studying the data for 24 leagues. They find that the assumption of independence is not
+            rejected in 15 cases out of the 24. They also consider the negative binomial distribution
+            and the inclusion of interaction terms.
+            </p>
+
+        <p>The goal difference Xij - Yij is also important. It determines whether a game result is
+            win, tie or loss (W, T, or L) and is used to resolve conflicts when the points are equal.
+            Stefani (1980) considers the model
+            </p>
+
+        <p>Xij - Yij =  + i - j + random error</p>
+        <p>with  the home advantage and the i called rankings. Karlis and Ntzoufras (2009) fit the
+            Poisson difference distribution to observed goal differences including a home effect,
+            attacking, and defensive parameters. </p>
+
+        <p>Fahrmeir and Tutz (1994) employ a logistic latent variable-cutpoint setup to model an
+            ordinal-valued variable. Their model is</p>
+
+        <p>Prob{Yij = r} = F(r+i -j) - F(r+i-j) for r = W, T, L</p>
+        <p>with F the logistic and i the ability of team i. In contrast Brillinger (1996, 2007, 2008,
+            2009) employs an extreme value variable-cutpoint approach. It leads to the model</p>
+
+        <p></p>
+        
+  
+      </center>
+</body>
+</html>
